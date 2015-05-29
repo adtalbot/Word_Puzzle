@@ -3,7 +3,6 @@ class String
 
     user_input = self.split("")
     vowels = ['a','e','i','o','u']
-    storage_array = []
 
     user_input.each() do |letter|
       if vowels.include?(letter)
