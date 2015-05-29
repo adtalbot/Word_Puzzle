@@ -1,11 +1,12 @@
 <h1>Result: <%= @results %></h1>
-
 <p>Player 2</p>
 
-<form action='/guess' method='post'>
-  <div class='form-group'>
-    <label for='user_guess'>Guess:</label>
-    <input id='user_guess' name='user_guess' type='text'>
-  </div>
-  <button type='submit' class='btn button'>Submit</button>
-</form>
+<div class='container'>
+  <form action='/guess' method='post'>
+    <div class='form-group'>
+      <label for='user_guess'>Guess:</label>
+      <input id='user_guess' name='user_guess' type='text'>
+    </div>
+    <button type='submit' class='btn button'>Submit</button>
+  </form>
+</div>

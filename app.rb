@@ -17,9 +17,3 @@ post('/guess') do
   @user_guess = params.fetch('user_guess')
   erb(:guess)
 end
-
-get('/guess') do
-  @user_guess = params.fetch('user_guess')
-  @user_input = params.fetch('user_input')
-  erb(:guess)
-end
