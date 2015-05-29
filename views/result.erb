@@ -1,6 +1,15 @@
-<h1>Results Page</h1>
+<h1>Guess the Word</h1>
 
 <div class='container'>
-  <p>The words you entered: <%= @user_input %></p>
-  <p>Result: <%= @results %>
+  <p>Result: <%= @results %></p>
 </div>
+
+
+
+<form action='/guess' method='post'>
+  <div class='form-group'>
+    <label for='user_guess'>Guess:</label>
+    <input id='user_guess' name='user_guess' type='text'>
+  </div>
+  <button type='submit' class='btn button'>Submit</button>
+</form>
