@@ -4,7 +4,6 @@ Bundler.require(:default, :production)
 Dir[File.dirname(__FILE__) + '/lib/*.rb'].each { |file| require file }
 
 get('/') do
-  @user_input
   erb(:index)
 end
 
