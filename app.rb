@@ -1,0 +1,14 @@
+require('bundler/setup')
+Bundler.require(:default, :production)
+
+Dir[File.dirname(__FILE__) + '/lib/*.rb'].each { |file| require file }
+
+get('/') do
+  erb(:index)
+end
+
+post('/result') do
+  @user_input = params.fetch('user_input')
+  @results = @user_input.word_puzzle()
+  erb(:result)
+end
