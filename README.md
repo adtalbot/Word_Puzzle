@@ -1,6 +1,6 @@
 ## WORD_PUZZLE_CHALLENGE
 
-By Audrie Talbot (<a href="https://github.com/adtalbot/battleship.git</a>)
+By Audrie Talbot (<a href="https://github.com/adtalbot/Word_Puzzle.git</a>)
 
 @ Epicodus Programming School, Portland, OR
 
@@ -34,6 +34,11 @@ Install gems:
 Start App:
 ```console
 > ruby app.rb
+```
+
+Heroku Deployment:
+```
+> https://dashboard.heroku.com/apps/murmuring-plains-9623/resources
 ```
 
 ### License ###
